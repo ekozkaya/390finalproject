@@ -62,9 +62,13 @@ use a repeated meausres anova comparing reaction time as a function of the stimu
 
 ```{python}
 import pandas as pd
+```
+
+```{python}
 from statsmodels.formula.api import ols
 from statsmodels.stats.anova import anova_lm
 
+#coded with the help of aider 
 # Read in the CSV data
 data = pd.read_csv('csvforanova.csv')
 

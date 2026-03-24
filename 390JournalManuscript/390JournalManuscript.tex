@@ -272,9 +272,15 @@ anova comparing reaction time as a function of the stimulus.
 \begin{Shaded}
 \begin{Highlighting}[]
 \ImportTok{import}\NormalTok{ pandas }\ImportTok{as}\NormalTok{ pd}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
 \ImportTok{from}\NormalTok{ statsmodels.formula.api }\ImportTok{import}\NormalTok{ ols}
 \ImportTok{from}\NormalTok{ statsmodels.stats.anova }\ImportTok{import}\NormalTok{ anova\_lm}
 
+\CommentTok{\#coded with the help of aider }
 \CommentTok{\# Read in the CSV data}
 \NormalTok{data }\OperatorTok{=}\NormalTok{ pd.read\_csv(}\StringTok{\textquotesingle{}csvforanova.csv\textquotesingle{}}\NormalTok{)}
 
