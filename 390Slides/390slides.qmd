@@ -2,7 +2,12 @@
 title: "Eriksen Flanker Experiment"
 author: "Rubee Kung, Nicole Hua, Jacob Grima, Eda Kubra Ozkaya"
 date: today
-format: revealjs
+format:
+  revealjs:
+    theme: moon   
+    slide-number: true
+    transition: fade
+    incremental: true
 ---
 
 ## Introduction
