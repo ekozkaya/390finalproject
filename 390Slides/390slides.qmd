@@ -25,9 +25,6 @@ format:
 - Conditions:
     - Congruent vs. Incongruent
     - Left vs. Right
-- Participants
-    - N = 16
-    - Recruited from classmates
 - Measures
     - Reaction time (ms)
     - Accuracy (%)
