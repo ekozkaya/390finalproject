@@ -26,7 +26,8 @@ affiliations:
     postal-code: N2l3G1
 
 abstract: |
-  For our final assignment, we coded an Eriksen Flanker Task on the students of Psych 390. 
+  The Eriksen Flanker Task is a widely used measure of selective attention and inhibitory control, in which participants respond to a central target while ignoring surrounding flanker stimuli. We conducted a replication study that used the Eriksen Flanker Task arrow variation to assess 16 undergraduate psychology students (N = 16) at the University of Waterloo enrolled in PSYCH390. Using a within-subjects design, we measured each student's reaction time and accuracy across 20 trials that randomly alternated between congruent and incongruent arrow stimuli. The results confirmed the findings in the original Eriksen & Eriksen and revised Stoffels & van der Molen studies, in that the prescence of incongrunt distractors significantly reduce response time compared to congruent distractors. Overall, [conclusion/takeaway insert here]
+
 keywords: 
   - Eriksen Flanker 
   - Congruent 
@@ -43,12 +44,7 @@ format:
       cite-style: authoryear
 ---
 
-# Abstract
-
-The Eriksen Flanker Task is a widely used measure of selective attention and inhibitory control, in which participants respond to a central target while ignoring surrounding flanker stimuli. We conducted a replication study that used the Eriksen Flanker Task arrow variation to assess 16 undergraduate psychology students (N = 16) at the University of Waterloo enrolled in PSYCH390. Using a within-subjects design, we measured each student's reaction time and accuracy across 20 trials that randomly alternated between congruent and incongruent arrow stimuli. The results confirmed the findings in [original study source insert here], in that [significant finding insert here]. Overall, [conclusion/takeaway insert here]
-
 # Intro
-
 
 
 
@@ -63,7 +59,6 @@ one in-line stat
 one significant statistical analysis 
 one plot generated from code -- with appropriate automatic label 
 use a repeated meausres anova comparing reaction time as a function of the stimulus.
-
 
 ```{python}
 #code built by aider model StepFun: Step 3.5 Flash (free) and edited by ChatGPT
@@ -149,10 +144,12 @@ The template for this plot was found on @matplotlib_website
 
 
 # Conclusion
-[Main finding]
-[Why the ~94ms difference between congruent (477ms) and incongruent (571ms) matter]
-[How does it relate to Eriksen & Eriksen (1974)]
-[Limitations (small sample)]
-[Future Directions]
+Consistent with theories of selective attention and cognitive control, the results of the present study provide supporting evidence towards the flanker interference effect. Given that there were both slower response times and lower accuracy on incongruent trials, this study demonstrates that flanker stimuli were automatically processed even when irrelevant, as the participants were unable to fully ignore them. Also notable, is that the direction alone (left vs right) was not significant, and neither was the interaction, meaning that distractor congruency was the only driver of the effect.
+
+Connection to other studies
+
+Limitations & Future Directions
+
+[@stoffels1988]
 
 # References {-}
