@@ -83,7 +83,7 @@ Although congruency was the primary variable of interest, direction was included
 #| echo: false
 #| warning: false
 #| message: false
-#| #| results: 'hide'
+#| results: 'hide'
 
 #code built by aider model StepFun: Step 3.5 Flash (free) and edited by ChatGPT
 import pandas as pd 
