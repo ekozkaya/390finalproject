@@ -235,6 +235,61 @@ examining attentional control.
 
 \section{Methods}\label{methods}
 
+\subsection{Participants}\label{participants}
+
+A total of N = 16 participants were recruited from classmates and
+personal contacts. Participation was voluntary, and no formal screening
+criteria were applied, as this project was conducted as a course-based
+demonstration of experimental tools rather than formal research.
+
+\subsection{Design}\label{design}
+
+The experiment employed a within-subject design in which all
+participants completed all experimental conditions. The task included
+two independent variables: congruency (congruent vs.~incongruent trials)
+and direction (left vs.~right). The primary dependent variables were
+reaction time (RT), measured in milliseconds, and accuracy, coded as
+correct (1) or incorrect (0).
+
+\subsection{Task and Stimuli}\label{task-and-stimuli}
+
+The experiment was based on a modified Eriksen flanker task, similar to
+what was done in the Stoffels \& Van der Molen (1988) study, as this
+study used arrows instead of letters. In each trial, participants were
+presented with a horizontal array of five arrows. In congruent trials,
+all arrows pointed in the same direction, whereas in incongruent trials,
+the central arrow pointed in an opposite direction from the surrounding
+arrows. Participants were instructed to respond to the direction of the
+central arrow while ignoring the flanking arrows, and respond as quickly
+and accurately as possible. Responses were made using the left and right
+arrow keys on a standard keyboard.
+
+\subsection{Procedure}\label{procedure}
+
+Participants first completed four practice trials with feedback to
+familiarize themselves with the task. Following the practice phase, they
+completed 20 experimental trials without feedback. Trials were randomly
+generated across conditions, ensuring that both congruent and
+incongruent trials, as well as left and right directions, were
+represented. Each trial began with a fixation cross presented for 500
+ms, followed by the stimulus, which remained on the screen until a
+response was made or for a maximum of 2000 ms. After the response or
+timeout, a blank screen was presented for an inter-trial interval of 700
+ms before the next trial began.
+
+\subsection{Apparatus and
+Implementation}\label{apparatus-and-implementation}
+
+The task was implemented in Python using the pygame library, which
+enabled precise control over stimulus presentation and response
+collection. Reaction time was recorded as the interval between stimulus
+onset and the participant's keypress, and accuracy was determined by
+comparing the response to the correct direction for each trial. All
+trial-level data, including condition, response, accuracy, and reaction
+time, were automatically recorded and saved as CSV files for each
+participant.The implementation was designed to ensure consistent timing
+and reproducible data collection across participants.
+
 \subsection{Data Analysis}\label{data-analysis}
 
 The data from each participant's CSV file were compiled into a single
@@ -350,8 +405,12 @@ Overall, despite its limitations, this study successfully replicates a
 well-established cognitive effect and demonstrates the robustness of the
 flanker paradigm as a tool for studying attention and response conflict.
 
+\section*{References}\label{references}
+\addcontentsline{toc}{section}{References}
 
-\renewcommand\refname{References}
+hh
+
+
 \bibliography{bibliography.bib}
 
 
