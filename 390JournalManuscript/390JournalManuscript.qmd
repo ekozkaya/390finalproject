@@ -47,7 +47,6 @@ format:
 
 
 # Methods 
-
 ## Participants
 A total of N = 16 participants were recruited from classmates and personal contacts. Participation was voluntary, and no formal screening criteria were applied, as this project was conducted as a course-based demonstration of experimental tools rather than formal research.
 
