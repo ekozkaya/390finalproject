@@ -24,6 +24,7 @@ affiliations:
     city: Waterloo
     state: Ontario 
     postal-code: N2l3G1
+
 abstract: The Eriksen Flanker Task is a widely used measure of selective attention and inhibitory control, in which individuals respond to a central target while ignoring surrounding distractor stimuli. The present study aimed to replicate the flanker interference effect using the arrow-based variation. A sample of 16 undergraduate students from the University of Waterloo completed a within-subjects experiment where reaction time and accuracy were measured across 20 trials that varied in congruency (congruent vs. incongruent) and direction (left vs. right). Results indicated that participants responded significantly slower and less accurately on incongruent trials compared to congruent trials, demonstrating the hypothesized and expected interference effect. No significant effects of direction or interaction between direction and congruency were observed, suggesting that performance differences were driven specifically by distractor congruency. These findings support existing theories of selective attention and cognitive control by showing that task-irrelevant stimuli are processed automatically and can interfere with response selection. Overall, this study shows support for the flanker effect and highlights the use of the flanker paradigm for examining attentional control.
 
 keywords: 
