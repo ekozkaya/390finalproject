@@ -28,6 +28,7 @@ affiliations:
 abstract: The Eriksen flanker task is a widely used measure of selective attention and inhibitory control, in which individuals respond to a central target while ignoring surrounding distractor stimuli. The present study aimed to replicate the flanker interference effect using an arrow-based variation. A sample of 16 undergraduate students from the University of Waterloo participated in a within-subjects experiment in which reaction time and accuracy were measured across 20 trials varying in congruency (congruent vs. incongruent) and direction (left vs. right). Results indicated that participants responded significantly slower on incongruent trials compared to congruent trials, F(1, 15) = 56.70, p < .001, and also showed reduced accuracy in incongruent conditions, demonstrating the expected interference effect. No significant effects of direction or interaction between direction and congruency were observed, suggesting that performance differences were driven specifically by distractor congruency. These findings support theories of selective attention and cognitive control by showing that task-irrelevant stimuli are processed automatically and can interfere with response selection. Overall, the results replicate the flanker effect and highlight the utility of the flanker paradigm for examining attentional control.
 
 
+
 keywords: 
   - Eriksen Flanker 
   - Congruent 
@@ -84,6 +85,7 @@ Although congruency was the primary variable of interest, direction was included
 #| message: false
 #| #| results: 'hide'
 
+#code built by aider model StepFun: Step 3.5 Flash (free) and edited by ChatGPT
 import pandas as pd 
 from statsmodels.stats.anova import AnovaRM
 
@@ -270,6 +272,7 @@ Reaction times were longer in incongruent trials (*M* = 571.28 ms) than in congr
 #| warning: false
 #| message: false
 
+#code built by aider model StepFun: Step 3.5 Flash (free) and edited by ChatGPT
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -343,6 +346,7 @@ Accuracy was higher for congruent trials (M = .97) than for incongruent trials (
 #| warning: false
 #| message: false
 
+#code built by aider model StepFun: Step 3.5 Flash (free) and edited by ChatGPT
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
